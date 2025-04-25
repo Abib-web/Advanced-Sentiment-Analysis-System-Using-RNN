@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb~  # temporary notebook backups
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+#
+aclImdb_v1/
+# VSCode or other IDEs
+.vscode/
+.idea/
+
+# OS / Editor / Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Jupyter runtime
+~$*
+*.pid
+*.bak
+
+# Environment variables or secrets
+.env
+.env.*
+secrets.json
