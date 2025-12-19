@@ -1,6 +1,6 @@
-# 🎬 Advanced Sentiment Analysis with RNNs – IMDb Reviews
+#  Advanced Sentiment Analysis with RNNs – IMDb Reviews
 
-## 📌 Project Overview and Objectives
+##  Project Overview and Objectives
 
 This project is part of the course **GEI1092 – Techniques d’intelligence artificielle**.  
 Our objective was to design and implement a deep learning-based **sentiment analysis system** using **Bidirectional LSTM (RNNs)** on the **IMDb movie review dataset**.
@@ -16,12 +16,12 @@ The model classifies reviews as **positive** or **negative**, and integrates sev
 
 ---
 
-## 📂 Dataset Download and Preprocessing
+## Dataset Download and Preprocessing
 
 You can download the IMDb dataset here:  
-📎 https://ai.stanford.edu/~amaas/data/sentiment/
+ https://ai.stanford.edu/~amaas/data/sentiment/
 
-### 🧹 Preprocessing Steps
+### Preprocessing Steps
 
 - Convert text to lowercase  
 - Remove HTML tags and punctuation  
@@ -33,7 +33,7 @@ You can download the IMDb dataset here:
 
 ---
 
-## 🧠 Model Training and Evaluation
+##  Model Training and Evaluation
 
 The model architecture includes:
 
@@ -43,7 +43,7 @@ The model architecture includes:
 - `Adam` optimizer  
 - `EarlyStopping` for better generalization
 
-### ✅ Performance:
+###  Performance:
 
 - Accuracy: **~85%** on test data  
 - Confusion matrix and manual sentence testing included  
@@ -51,14 +51,14 @@ The model architecture includes:
 
 ---
 
-## ♻️ Carbon Footprint Analysis
+##  Carbon Footprint Analysis
 
 We used the **CodeCarbon** library to monitor the **energy usage** and **CO₂ emissions** during training.  
 Although our project remains lightweight, this step raises awareness about the **environmental impact of AI models**.
 
 ---
 
-## 🔍 Ethical Considerations and Explainability
+## Ethical Considerations and Explainability
 
 To ensure the **fairness** and **transparency** of our model:
 
@@ -69,11 +69,11 @@ To ensure the **fairness** and **transparency** of our model:
 
 ---
 
-## 📱 Embedded Deployment (TensorFlow Lite)
+## Embedded Deployment (TensorFlow Lite)
 
 The trained Keras model was converted to **TensorFlow Lite** to enable inference on mobile or embedded devices.
 
-### ⚙️ Deployment Details:
+### Deployment Details:
 
 - Model size (TFLite): **6.5 MB**  
 - Inference time per sample: **~0.027 s**  
@@ -83,12 +83,12 @@ This allows real-time predictions on resource-limited environments like **Raspbe
 
 ---
 
-## 🧾 License and Code Release Responsibility
+## License and Code Release Responsibility
 
 This project is released under the **MIT License**, which allows reuse and modification with attribution.  
 We encourage open collaboration and welcome issues and pull requests.
 
-### ✅ Responsibilities:
+### Responsibilities:
 
 - Maintain transparency of model structure and training process  
 - Document preprocessing steps clearly  
@@ -96,17 +96,11 @@ We encourage open collaboration and welcome issues and pull requests.
 
 ---
 
-## 🛠️ Bug Reporting and Contributions
+## Bug Reporting and Contributions
 
 - Use the **Issues** tab to report bugs or suggest improvements  
 - Open a **Pull Request** for code contributions or documentation updates  
 - All code and experiments are documented in the notebook
 
----
 
-## 👥 Contributors
 
-- **Oumar Kone**  
-- **Abdoul Nasser Adamou**  
-- Supervisor: **Prof. Ahmed Messaoud**  
-  Université du Québec à Trois-Rivières
